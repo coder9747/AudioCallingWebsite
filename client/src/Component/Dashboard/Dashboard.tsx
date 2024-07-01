@@ -23,7 +23,7 @@ const Dashboard = () => {
     }
     const handleCopy = async () => {
         try {
-            window.navigator.clipboard.writeText(`http://localhost:5173/call?roomName=${data.roomId}`);
+            window.navigator.clipboard.writeText(`https://audiocallingwebsite.onrender.com/call?roomName=${data.roomId}`);
             alert("Copied");
 
         } catch (error) {
